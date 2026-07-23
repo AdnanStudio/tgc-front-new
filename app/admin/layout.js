@@ -36,8 +36,8 @@ const navGroups = [
   {
     group:'ওয়েবসাইট',
     items:[
-      { label:'থিম ও ডিজাইন',    href:'/admin/dashboard/themes',    icon:FaPalette },
-      { label:'নেভিগেশন মেনু',   href:'/admin/dashboard/navmenus',  icon:FaCompass },
+      // { label:'থিম ও ডিজাইন',    href:'/admin/dashboard/themes',    icon:FaPalette },
+      // { label:'নেভিগেশন মেনু',   href:'/admin/dashboard/navmenus',  icon:FaCompass },
       { label:'লিংক সমূহ',        href:'/admin/dashboard/quicklinks',icon:FaLink },
       { label:'স্ক্রলিং টেক্সট', href:'/admin/dashboard/scrolling', icon:FaBullhorn },
     ]

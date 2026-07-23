@@ -17,7 +17,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'মাদরাসাতু দারিল কুরআন',
+  title: 'টুঙ্গিপাড়া সরকারি কলেজ',
   description: '',
 };
 
