@@ -67,12 +67,12 @@ export default function AboutPage() {
                 <table className="data-table">
                   <tbody>
                     {[
-                      ['কলেজের নাম', settings?.collegeName || 'মাদরাসাতু দারিল কুরআন'],
-                      ['ইংরেজি নাম', settings?.collegeNameEn || 'Madrasha Darul Quran'],
+                      ['কলেজের নাম', settings?.collegeName || ''],
+                      ['ইংরেজি নাম', settings?.collegeNameEn || ''],
                       ['EIIN নম্বর', settings?.eiinNumber || ''],
                       ['MPO নম্বর', settings?.mpoNumber || 'N/A'],
                       ['প্রতিষ্ঠা বছর', settings?.establishedYear || ''],
-                      ['ঠিকানা', settings?.address || 'চান্দনী মহল, খুলনা'],
+                      ['ঠিকানা', settings?.address || ''],
                       ['ফোন', settings?.phone?.[0] || 'N/A'],
                       ['ইমেইল', settings?.email || 'N/A'],
                     ].map(([key, val]) => (

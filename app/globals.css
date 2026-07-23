@@ -30,10 +30,10 @@
 @layer base {
   * { box-sizing:border-box; }
   html { scroll-behavior:smooth; }
-  body { font-family:'Hind Siliguri','Noto Sans Bengali',sans-serif; background:var(--color-body-bg); color:#1f2937; font-size:14px; }
+  body { font-family:'Hind Siliguri','Noto Sans Bengali',sans-serif; background:var(--color-body-bg); color:#1f2937; font-size:18px; }
   h1,h2,h3,h4,h5,h6 { font-family:'Hind Siliguri','Noto Sans Bengali',sans-serif; font-weight:600; }
-  p,span,a,td,th,label,input,select,textarea,button { font-size:max(12px,1em); }
-  * { min-font-size:12px; }
+  p,span,a,td,th,label,input,select,textarea,button { font-size:max(16px,1em); }
+  * { min-font-size:16px; }
 }
 
 /* ── Dynamic Theme Classes ── */
@@ -88,14 +88,14 @@
   .input {
     @apply w-full border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 transition-all bg-white;
     border-radius: var(--border-radius);
-    font-size: max(12px, 0.875rem);
+    font-size: max(16px, 0.875rem);
   }
   .input:focus { border-color: var(--color-primary); box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-primary) 20%, transparent); }
-  .label { @apply text-sm font-medium text-gray-700 mb-1 block; font-size:max(12px,0.875rem); }
+  .label { @apply text-sm font-medium text-gray-700 mb-1 block; font-size:max(16px,0.875rem); }
 
   /* Badges */
-  .badge-new { @apply bg-red-500 text-white text-xs px-2 py-0.5 rounded-full font-medium animate-pulse; font-size:max(10px,0.7rem); }
-  .badge-important { @apply bg-yellow-500 text-white text-xs px-2 py-0.5 rounded-full font-medium; font-size:max(10px,0.7rem); }
+  .badge-new { @apply bg-red-500 text-white text-xs px-2 py-0.5 rounded-full font-medium animate-pulse; font-size:max(14px,0.7rem); }
+  .badge-important { @apply bg-yellow-500 text-white text-xs px-2 py-0.5 rounded-full font-medium; font-size:max(14px,0.7rem); }
 
   /* Nav */
   .nav-link { color: var(--color-nav-text); @apply transition-colors duration-200 text-sm font-medium px-1; }
@@ -115,8 +115,8 @@
 
   /* Table */
   .data-table { @apply w-full text-sm text-left border-collapse; }
-  .data-table th { @apply px-4 py-3 font-semibold text-white border; background: var(--color-primary); font-size:max(12px,0.8rem); }
-  .data-table td { @apply px-4 py-3 border border-gray-200 text-gray-700; font-size:max(12px,0.8rem); }
+  .data-table th { @apply px-4 py-3 font-semibold text-white border; background: var(--color-primary); font-size:max(16px,0.8rem); }
+  .data-table td { @apply px-4 py-3 border border-gray-200 text-gray-700; font-size:max(16px,0.8rem); }
   .data-table tbody tr:nth-child(even) { @apply bg-gray-50; }
   .data-table tbody tr:hover { background: color-mix(in srgb, var(--color-primary) 5%, white); }
 
@@ -152,5 +152,5 @@
 .swiper-pagination-bullet-active { background:#fff !important; width:28px !important; border-radius:5px !important; }
 
 /* Minimum font size enforcement */
-* { font-size: max(inherit, 10px); }
-small, .text-xs { font-size: max(12px, 0.75rem) !important; }
+* { font-size: max(inherit, 14px); }
+small, .text-xs { font-size: max(16px, 0.75rem) !important; }

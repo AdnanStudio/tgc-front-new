@@ -51,7 +51,7 @@ export default function HeroSlider() {
             {settings?.collegeName || 'মাদরাসাতু দারিল কুরআন'}
           </h1>
           <p className="text-lg md:text-xl text-green-200 mb-2">{settings?.tagline || 'জ্ঞানই শক্তি'}</p>
-          <p className="text-sm text-green-300">{settings?.address || 'চান্দনী মহল, খুলনা'}</p>
+          <p className="text-sm text-green-300">{settings?.address || ''}</p>
           <p className="text-xs text-green-400 mt-2">EIIN: {settings?.eiinNumber || ''}</p>
         </div>
         {/* Decorative circles */}
@@ -99,7 +99,7 @@ export default function HeroSlider() {
               animate={{ opacity:1, y:0 }}
               transition={{ delay:0.3 }}
               className="text-white text-2xl md:text-4xl font-bold drop-shadow-xl">
-              {settings?.collegeName || 'চান্দনী মহল, খুলনা'}
+              {settings?.collegeName || ''}
             </motion.h2>
             {slides[current]?.titleBn && (
               <motion.p initial={{ opacity:0 }} animate={{ opacity:1 }} transition={{ delay:0.5 }}

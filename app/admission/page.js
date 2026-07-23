@@ -3,7 +3,7 @@ import Footer from '../../components/layout/Footer';
 import Link from 'next/link';
 import { FaGraduationCap, FaCheckCircle, FaExternalLinkAlt } from 'react-icons/fa';
 
-export const metadata = { title: 'ভর্তি - মাদরাসাতু দারিল কুরআন' };
+export const metadata = { title: 'ভর্তি - ' };
 
 export default function AdmissionPage() {
   return (
